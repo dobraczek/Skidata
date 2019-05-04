@@ -1,0 +1,30 @@
+/**
+ * SKIDATA v1
+ * @author Martin Dobry
+ * @link http://webscript.cz
+ * @version 1.0
+ */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	margin: 0 auto;
+	padding: 30px 0 20px 0;
+	text-align: center;
+}
+
+h2 {
+	margin: 0 auto;
+	padding: 30px 0 20px 0;
+}
+
+pre {
+	font-family: 'Inconsolata', monospace;
+	position: relative;
+	height: 200px;
+	border: 1px solid #666;
+	padding: 10px;
+	background-color: #eee;
+}
