@@ -1,5 +1,5 @@
 # SKIDATA mini API verze 1.0
-Skidata mini API - nástoj pro komunikaci se serverem SKIDATA. Jedná se o minimalizovanou verzi nepodporující nákup balíčku, apod. Pro napojení na server je nutné mě kontaktovat.
+SKIDATA mini API - nástoj pro komunikaci se serverem SKIDATA. Jedná se o minimalizovanou verzi nepodporující nákup balíčku, apod. Pro napojení na server je nutné mě kontaktovat.
 
 Ukázka výstupu API při otestování například validity čipu: http://webscript.cz/SkidataAPI/
 
