@@ -4,7 +4,7 @@ SKIDATA mini API - nástoj pro komunikaci se serverem SKIDATA. Jedná se o minim
 
 Ukázka výstupu API při otestování například validity čipu: http://webscript.cz/SkidataAPI/
 
-Můžete si vyzkoušet i vlastní test: http://webscript.cz/SkidataAPI/?chip=30161472562512341833850
+Ukázka vlastního testu čipové karty (vyměňte parametr chip v URL): http://webscript.cz/SkidataAPI/?chip=30161472562512341833850
 
 ### Čtení katalogu SKIDATA
 
