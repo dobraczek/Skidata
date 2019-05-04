@@ -7,6 +7,8 @@ Ukázka výstupu API při otestování například validity čipu: http://webscr
 ### Čtení katalogu SKIDATA
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->Catalog();
 echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ```
@@ -14,6 +16,8 @@ echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ### Otestování validity čipu
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->Chip('30-1614 7256 2512 3418 3385-0');
 echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ```
@@ -21,6 +25,8 @@ echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ### Detail kontrétního produktu
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->Product('ea299ac4-43b7-e6e5-90f4-f83889ba88e1');
 echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ```
@@ -28,6 +34,8 @@ echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ### Výpis objednávek
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->Orders();
 echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ```
@@ -35,6 +43,8 @@ echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ### Detail konkrétní objednávky
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->Order('001bb8e0-209a-11e9-86fb-005056b1dfdb');
 echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ```
@@ -42,6 +52,8 @@ echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ### Vytvoření jednoduché objednávky
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->OrderNew(array(
   'FirstName'     => 'Jan',
   'LastName'      => 'Navak',
@@ -66,6 +78,8 @@ echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ### Storno objednávky
 
 ```
+include "Skidata.php";
+$Skidata = new DTA\Skidata();
 $json = $Skidata->Storno('f9c72dd0-6e50-11e9-bf3d-005056b1dfdb');
 echo '<pre>'.print_r(json_decode($json, 1), 1).'</pre>';
 ```
