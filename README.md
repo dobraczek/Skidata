@@ -1,4 +1,5 @@
-# SKIDATA mini API verze 1.0
+# <img src="http://skidata-integration.com/skidata.png" width="150" alt="SKIDATA mini API verze 1.0" />&nbsp; mini API verze 1.0
+
 SKIDATA mini API - nástoj pro komunikaci se serverem SKIDATA. Jedná se o minimalizovanou verzi nepodporující nákup balíčku, apod. Pro napojení na server je nutné mě kontaktovat.
 
 Ukázka výstupu API při otestování například validity čipu: http://webscript.cz/SkidataAPI/
