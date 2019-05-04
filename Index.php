@@ -33,9 +33,7 @@
      * @version 1.0
      */
     
-    include "Skidata.php";
-    
-
+    require "Skidata.php";
     $Skidata = new DTA\Skidata();
     
     echo 'Server: '.$Skidata->serverAPI .'<br />';
