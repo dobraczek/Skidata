@@ -2,7 +2,7 @@
 
 SKIDATA mini API - nástoj pro komunikaci se serverem SKIDATA. Jedná se o minimalizovanou verzi nepodporující nákup balíčku, apod. Pro napojení na server je nutné mě kontaktovat.
 
-**POZOR!** Ukázka funguje v případě, že SKIDATA mají povolenou testovací verzi serveru. Ukázka není napojena na ostrou databázi.
+**POZOR!** Ukázka funguje pouze v případě, že SKIDATA mají povolenou testovací verzi serveru. Ukázka není napojena na ostrou databázi.
 
 Ukázka výstupu API při otestování například validity čipu: https://webscript.cz/SkidataAPI/
 
